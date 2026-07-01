@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Dastaan — An ultra-luxury Pakistani culinary experience rooted in heritage and crafted for the refined palate." />
+    <title>Dastaan — The Story of Pakistani Cuisine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===== SCROLL PROGRESS BAR ===== -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ===== LOADING SCREEN ===== -->
+    <!-- <div id="loader" role="status" aria-label="Loading Dastaan">
+        <div class="loader-inner">
+            <div class="loader-ornament"></div>
+            <p class="loader-title">دستان</p>
+            <p class="loader-subtitle">DASTAAN</p>
+            <div class="loader-line"></div>
+            <p class="loader-tagline">A Story Worth Savoring</p>
+        </div>
+    </div> -->
+
+    <!-- ===== STICKY NAVIGATION ===== -->
+    <header id="navbar" role="banner">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="#hero" class="nav-logo" aria-label="Dastaan — Home">
+                <span class="logo-urdu">دستان</span>
+                <span class="logo-english">DASTAAN</span>
+            </a>
+
+            <ul class="nav-links" role="list">
+                <li><a href="#about" class="nav-link">Our Story</a></li>
+                <li><a href="#why-us" class="nav-link">Heritage</a></li>
+                <li><a href="#dishes" class="nav-link">Signatures</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#chefs" class="nav-link">Chefs</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#reservation" class="nav-cta">Reserve a Table</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mobile-drawer">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+            <button class="drawer-close" id="drawer-close" aria-label="Close menu">&#x2715;</button>
+            <ul class="drawer-links" role="list">
+                <li><a href="#about" class="drawer-link">Our Story</a></li>
+                <li><a href="#why-us" class="drawer-link">Heritage</a></li>
+                <li><a href="#dishes" class="drawer-link">Signatures</a></li>
+                <li><a href="#menu" class="drawer-link">Menu</a></li>
+                <li><a href="#chefs" class="drawer-link">Chefs</a></li>
+                <li><a href="#gallery" class="drawer-link">Gallery</a></li>
+                <li><a href="#reviews" class="drawer-link">Reviews</a></li>
+                <li><a href="#contact" class="drawer-link">Contact</a></li>
+                <li><a href="#reservation" class="drawer-link drawer-link--cta">Reserve a Table</a></li>
+            </ul>
+        </div>
+        <div class="drawer-overlay" id="drawer-overlay"></div>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO BANNER ===== -->
+        <section id="hero" aria-label="Hero">
+            <div class="hero-bg-layer" aria-hidden="true">
+                <div class="hero-orb hero-orb--1"></div>
+                <div class="hero-orb hero-orb--2"></div>
+                <div class="hero-grid-lines" aria-hidden="true"></div>
+            </div>
+
+            <div class="hero-content reveal-hero">
+                <p class="hero-eyebrow">Est. 1998 · Karachi, Pakistan</p>
+                <h1 class="hero-title">
+                    Where Every Dish<br />
+                    <em>Tells a Story</em>
+                </h1>
+                <p class="hero-subtitle" id="hero-typewriter" aria-live="polite"></p>
+                <div class="hero-actions">
+                    <a href="#reservation" class="btn btn--gold">Reserve Your Table</a>
+                    <a href="#menu" class="btn btn--ghost">Explore the Menu</a>
+                </div>
+            </div>
+
+            <div class="hero-float-badges" aria-hidden="true">
+                <div class="float-badge float-badge--1">
+                    <span class="badge-num">26+</span>
+                    <span class="badge-label">Years of Heritage</span>
+                </div>
+                <div class="float-badge float-badge--2">
+                    <span class="badge-num">4.9★</span>
+                    <span class="badge-label">Guest Rating</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT RESTAURANT ===== -->
+        <section id="about" class="section" aria-labelledby="about-heading">
+            <div class="container about-grid">
+                <div class="about-imagery fade-up">
+                    <div class="about-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80"
+                            alt="Dastaan restaurant interior with warm candlelight" loading="lazy" />
+                        <div class="about-img-accent"></div>
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&q=80"
+                            alt="Artisanal Pakistani spices and herbs" loading="lazy" />
+                    </div>
+                </div>
+
+                <div class="about-content fade-up fade-up--delay">
+                    <p class="section-eyebrow">Our Story</p>
+                    <h2 id="about-heading" class="section-title">A Legacy Forged<br /><em>in Spice & Soul</em></h2>
+                    <p class="body-text">Dastaan was born from a single conviction: that Pakistani cuisine, in all its
+                        layered complexity, deserves a stage as grand as the culture it springs from. Founded in 1998 by
+                        Chef Nasir Ali in the heart of Karachi, our kitchen became a sanctuary where ancestral recipes
+                        met studied mastery.</p>
+                    <p class="body-text body-text--muted">From the slow-simmered depths of a Beef Nihari to the fragrant
+                        elevation of a Pulao crowned in saffron, every plate that leaves our kitchen carries the weight
+                        of a story — of soil, of family, of fire. We call it Dastaan. Because great food is never just
+                        food. It is memory, made edible.</p>
+                    <div class="about-divider" aria-hidden="true"></div>
+                    <div class="about-pillars">
+                        <div class="pillar">
+                            <span class="pillar-icon" aria-hidden="true">✦</span>
+                            <p class="pillar-text">Ancestral recipes, refined for the contemporary palate</p>
+                        </div>
+                        <div class="pillar">
+                            <span class="pillar-icon" aria-hidden="true">✦</span>
+                            <p class="pillar-text">Ingredients sourced from heritage farms across Pakistan</p>
+                        </div>
+                    </div>
+                    <a href="#menu" class="btn btn--gold">Explore Our Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHY CHOOSE US ===== -->
+        <section id="why-us" class="section section--dark" aria-labelledby="why-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <p class="section-eyebrow">Why Dastaan</p>
+                    <h2 id="why-heading" class="section-title">A Standard That<br /><em>Speaks for Itself</em></h2>
+                </header>
+
+                <div class="why-grid">
+                    <div class="why-card fade-up" tabindex="0">
+                        <div class="why-card-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="14" stroke="#D4AF37" stroke-width="1.5" />
+                                <path d="M16 8v8l5 3" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">26+ Years of Heritage</h3>
+                        <p class="why-card-text">Over two decades of culinary storytelling, each year deepening our
+                            roots and sharpening our craft in Pakistan's most revered kitchen traditions.</p>
+                        <div class="why-card-stat">
+                            <span class="counter" data-target="26">0</span>
+                            <span class="counter-suffix">+ Years</span>
+                        </div>
+                    </div>
+
+                    <div class="why-card fade-up" tabindex="0" style="--delay: 0.1s">
+                        <div class="why-card-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 4C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4z"
+                                    stroke="#D4AF37" stroke-width="1.5" />
+                                <path d="M12 14c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4z" stroke="#D4AF37"
+                                    stroke-width="1.5" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Master Chefs</h3>
+                        <p class="why-card-text">Our brigade of 12 culinary architects trained across Karachi,
+                            and Islamabad, each the custodian of a regional secret they bring to your table.</p>
+                        <div class="why-card-stat">
+                            <span class="counter" data-target="12">0</span>
+                            <span class="counter-suffix"> Chefs</span>
+                        </div>
+                    </div>
+
+                    <div class="why-card fade-up" tabindex="0" style="--delay: 0.2s">
+                        <div class="why-card-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 28V10l10-6 10 6v18" stroke="#D4AF37" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                                <rect x="12" y="18" width="8" height="10" stroke="#D4AF37" stroke-width="1.5" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Dishes Curated</h3>
+                        <p class="why-card-text">A living menu of over 200 dishes, each tested a thousand times before
+                            being deemed worthy of the Dastaan name and your discerning expectation.</p>
+                        <div class="why-card-stat">
+                            <span class="counter" data-target="200">0</span>
+                            <span class="counter-suffix">+ Dishes</span>
+                        </div>
+                    </div>
+
+                    <div class="why-card fade-up" tabindex="0" style="--delay: 0.3s">
+                        <div class="why-card-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 4l3.09 6.26L26 11.27l-5 4.87 1.18 6.88L16 19.77l-6.18 3.25L11 16.14 6 11.27l6.91-1.01L16 4z"
+                                    stroke="#D4AF37" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="why-card-title">Awards Earned</h3>
+                        <p class="why-card-text">Recognized by the Pakistan Culinary Federation, Condé Nast, and the
+                            South Asian Food Awards as a benchmark institution of high-end Pakistani dining.</p>
+                        <div class="why-card-stat">
+                            <span class="counter" data-target="18">0</span>
+                            <span class="counter-suffix"> Awards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FEATURED DISHES ===== -->
+        <section id="dishes" class="section" aria-labelledby="dishes-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <p class="section-eyebrow">Signature Plates</p>
+                    <h2 id="dishes-heading" class="section-title">Dishes That Define<br /><em>Dastaan</em></h2>
+                </header>
+            </div>
+
+            <div class="dishes-track fade-up">
+                <div class="dish-card">
+                    <div class="dish-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=700&q=80"
+                            alt="Chicken Biryani — aromatic saffron-kissed rice with slow-cooked chicken"
+                            loading="lazy" />
+                    </div>
+                    <div class="dish-card-body">
+                        <div class="dish-stars" aria-label="Rating: 5 stars">★★★★★</div>
+                        <h3 class="dish-name">Chicken Biryani</h3>
+                        <p class="dish-desc">Basmati rice layered with slow-braised chicken, whole spices, caramelized
+                            onions, and sealed with saffron-milk dum.</p>
+                        <div class="dish-footer">
+                            <span class="dish-price">PKR 1,850</span>
+                            <button class="btn btn--gold btn--sm dish-btn">Reserve Plate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=700&q=80"
+                            alt="Mutton Karahi — wok-tossed mutton in a fiery tomato reduction" loading="lazy" />
+                    </div>
+                    <div class="dish-card-body">
+                        <div class="dish-stars" aria-label="Rating: 5 stars">★★★★★</div>
+                        <h3 class="dish-name">Mutton Karahi</h3>
+                        <p class="dish-desc">Tender bone-in mutton wok-tossed with crushed tomatoes, ginger julienne,
+                            and a finishing of fresh green chillies.</p>
+                        <div class="dish-footer">
+                            <span class="dish-price">PKR 2,400</span>
+                            <button class="btn btn--gold btn--sm dish-btn">Reserve Plate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=700&q=80"
+                            alt="Beef Nihari — slow-simmered braised beef stew, a morning classic"
+                            loading="lazy" />
+                    </div>
+                    <div class="dish-card-body">
+                        <div class="dish-stars" aria-label="Rating: 5 stars">★★★★★</div>
+                        <h3 class="dish-name">Beef Nihari</h3>
+                        <p class="dish-desc">A 12-hour slow braise of shank in a deep, dark gravy of nihari masala,
+                            finished with ginger, coriander, and crisp fried onions.</p>
+                        <div class="dish-footer">
+                            <span class="dish-price">PKR 1,950</span>
+                            <button class="btn btn--gold btn--sm dish-btn">Reserve Plate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=700&q=80"
+                            alt="Chicken Tikka — charcoal-kissed marinated chicken from the tandoor" loading="lazy" />
+                    </div>
+                    <div class="dish-card-body">
+                        <div class="dish-stars" aria-label="Rating: 4 stars">★★★★☆</div>
+                        <h3 class="dish-name">Chicken Tikka</h3>
+                        <p class="dish-desc">Boneless chicken marinated overnight in yogurt, lemon, and tikka spices,
+                            cooked in a traditional clay tandoor over live coals.</p>
+                        <div class="dish-footer">
+                            <span class="dish-price">PKR 1,650</span>
+                            <button class="btn btn--gold btn--sm dish-btn">Reserve Plate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=700&q=80"
+                            alt="BBQ Platter — an assortment of grilled meats from the Dastaan grill" loading="lazy" />
+                    </div>
+                    <div class="dish-card-body">
+                        <div class="dish-stars" aria-label="Rating: 5 stars">★★★★★</div>
+                        <h3 class="dish-name">BBQ Platter</h3>
+                        <p class="dish-desc">A grand platter of seekh kabab, chapli kabab, boti, and tikka. The full
+                            theatre of Pakistani grill culture on one copper plate.</p>
+                        <div class="dish-footer">
+                            <span class="dish-price">PKR 3,800</span>
+                            <button class="btn btn--gold btn--sm dish-btn">Reserve Plate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== COMPLETE MENU ===== -->
+        <section id="menu" class="section section--dark" aria-labelledby="menu-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <p class="section-eyebrow">The Full Menu</p>
+                    <h2 id="menu-heading" class="section-title">Crafted with Intention,<br /><em>Served with Pride</em>
+                    </h2>
+                </header>
+
+                <div class="tabs fade-up" role="tablist" aria-label="Menu categories">
+                    <button class="tab active" role="tab" aria-selected="true" aria-controls="tab-mains"
+                        id="btn-mains">Mains</button>
+                    <button class="tab" role="tab" aria-selected="false" aria-controls="tab-bbq"
+                        id="btn-bbq">BBQ</button>
+                    <button class="tab" role="tab" aria-selected="false" aria-controls="tab-desserts"
+                        id="btn-desserts">Desserts</button>
+                    <button class="tab" role="tab" aria-selected="false" aria-controls="tab-beverages"
+                        id="btn-beverages">Beverages</button>
+                </div>
+
+                <div class="tab-panels">
+                    <!-- MAINS -->
+                    <div class="tab-panel active" role="tabpanel" id="tab-mains" aria-labelledby="btn-mains">
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80"
+                                    alt="Chicken Biryani" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Chicken Biryani</h4>
+                                    <p class="menu-item-desc">Slow-cooked in dum with whole spices, golden onions,
+                                        saffron milk, and a bay leaf whisper.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,850</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=300&q=80"
+                                    alt="Mutton Karahi" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Mutton Karahi</h4>
+                                    <p class="menu-item-desc">Wok-roasted with vine tomatoes, green chilli, and black
+                                        pepper in a cast-iron karahi.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 2,400</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=300&q=80"
+                                    alt="Beef Nihari" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Beef Nihari</h4>
+                                    <p class="menu-item-desc">A 12-hour shank braise, karachi nihari masala, finished
+                                        with fresh ginger and crisp onion.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,950</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=300&q=80"
+                                    alt="Chicken Handi" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="4 stars">★★★★☆</div>
+                                    <h4 class="menu-item-name">Chicken Handi</h4>
+                                    <p class="menu-item-desc">Chicken slow-braised in a creamy tomato gravy, sealed in a
+                                        clay handi for earthy depth.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,600</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=300&q=80"
+                                    alt="Haleem" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Haleem</h4>
+                                    <p class="menu-item-desc">A slow-cooked blend of wheat, barley, lentils, and beef —
+                                        Pakistan's most soul-warming dish.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,200</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?w=300&q=80"
+                                    alt="Pulao" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="4 stars">★★★★☆</div>
+                                    <h4 class="menu-item-name">Pulao</h4>
+                                    <p class="menu-item-desc">Fragrant basmati cooked in a golden broth of whole spices,
+                                        with caramelized onions and raisins.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 980</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BBQ -->
+                    <div class="tab-panel" role="tabpanel" id="tab-bbq" aria-labelledby="btn-bbq" hidden>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=300&q=80"
+                                    alt="Chicken Tikka" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Chicken Tikka</h4>
+                                    <p class="menu-item-desc">Tandoor-kissed boneless chicken, marinated for 24 hours in
+                                        yogurt and proprietary tikka spices.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,650</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=300&q=80"
+                                    alt="Seekh Kabab" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Seekh Kabab</h4>
+                                    <p class="menu-item-desc">Minced beef with onion, green chilli, and coriander —
+                                        hand-pressed onto skewers and charcoal-grilled.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,400</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80"
+                                    alt="Chapli Kabab" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Chapli Kabab</h4>
+                                    <p class="menu-item-desc">The Peshawari classic — flat beef patties with pomegranate
+                                        seeds, tomato, and Frontier spices, pan-seared in tallow.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 1,500</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80"
+                                    alt="BBQ Platter" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">BBQ Platter</h4>
+                                    <p class="menu-item-desc">Full-table platter with seekh, chapli, tikka, boti, and
+                                        naan — the complete Dastaan grill experience.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 3,800</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=300&q=80"
+                                    alt="Naan" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="4 stars">★★★★☆</div>
+                                    <h4 class="menu-item-name">Roghni Naan</h4>
+                                    <p class="menu-item-desc">Pillowy leavened flatbread brushed with butter and egg
+                                        wash, baked on the walls of the tandoor.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 120</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DESSERTS -->
+                    <div class="tab-panel" role="tabpanel" id="tab-desserts" aria-labelledby="btn-desserts" hidden>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=300&q=80"
+                                    alt="Falooda" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Rose Falooda</h4>
+                                    <p class="menu-item-desc">Chilled layers of vermicelli, basil seeds, rose syrup, and
+                                        kulfi — an enduring Pakistani summer ritual.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 650</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=300&q=80"
+                                    alt="Kheer" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Kheer</h4>
+                                    <p class="menu-item-desc">Rice pudding simmered for four hours in whole milk,
+                                        cardamom, and sugar, garnished with slivered pistachios.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 550</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=300&q=80"
+                                    alt="Gulab Jamun" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Gulab Jamun</h4>
+                                    <p class="menu-item-desc">Milk-solid dumplings fried to deep gold and soaked
+                                        overnight in rose-cardamom syrup. Served warm.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 480</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BEVERAGES -->
+                    <div class="tab-panel" role="tabpanel" id="tab-beverages" aria-labelledby="btn-beverages" hidden>
+                        <div class="menu-grid">
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=300&q=80"
+                                    alt="Lassi" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Dahi Lassi</h4>
+                                    <p class="menu-item-desc">Full-fat yogurt churned with sugar, a pinch of salt, and
+                                        topped with a centimetre of clotted cream. Karachi's icon.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 350</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=300&q=80"
+                                    alt="Doodh Patti Chai" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="5 stars">★★★★★</div>
+                                    <h4 class="menu-item-name">Doodh Patti Chai</h4>
+                                    <p class="menu-item-desc">Pakistani milk tea brewed directly with loose-leaf black
+                                        tea and whole milk, sweetened to your preference.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 180</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&q=80"
+                                    alt="Rooh Afza Sharbat" loading="lazy" />
+                                <div class="menu-item-body">
+                                    <div class="menu-item-stars" aria-label="4 stars">★★★★☆</div>
+                                    <h4 class="menu-item-name">Rose Sharbat</h4>
+                                    <p class="menu-item-desc">Chilled rose-water sharbat with basil seeds and a squeeze
+                                        of Kinnow — the colour of a Karachi sunset in a glass.</p>
+                                    <div class="menu-item-footer"><span class="menu-item-price">PKR 280</span><button
+                                            class="btn btn--gold btn--xs">Order Now</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CHEF SECTION ===== -->
+        <section id="chefs" class="section" aria-labelledby="chefs-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <p class="section-eyebrow">The Minds Behind the Masala</p>
+                    <h2 id="chefs-heading" class="section-title">Our Culinary<br /><em>Architects</em></h2>
+                </header>
+
+                <div class="chefs-grid">
+                    <article class="chef-card fade-up" tabindex="0">
+                        <div class="chef-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500&q=80"
+                                alt="Chef Nasir Ali, Founder and Head Chef" loading="lazy" />
+                            <div class="chef-overlay">
+                                <p class="chef-overlay-bio">30 years of mastery. Custodian of ancestral flame-cooking
+                                    techniques from Punjab and Sindh.</p>
+                                <div class="chef-socials">
+                                    <a href="#" aria-label="Chef Nasir on Instagram" class="chef-social-link">Ig</a>
+                                    <a href="#" aria-label="Chef Nasir on LinkedIn" class="chef-social-link">Li</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-info">
+                            <h3 class="chef-name">Nasir Ali</h3>
+                            <p class="chef-role">Founder & Executive Chef</p>
+                        </div>
+                    </article>
+
+                    <article class="chef-card fade-up" style="--delay: 0.15s" tabindex="0">
+                        <div class="chef-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=500&q=80"
+                                alt="Chef Ahmed Khan, Pastry and Desserts Chef" loading="lazy" />
+                            <div class="chef-overlay">
+                                <p class="chef-overlay-bio">A Karachi-born pastry visionary who reimagines Pakistani
+                                    sweets through a fine-dining lens.</p>
+                                <div class="chef-socials">
+                                    <a href="#" aria-label="Chef Ahmed on Instagram" class="chef-social-link">Ig</a>
+                                    <a href="#" aria-label="Chef Ahmed on LinkedIn" class="chef-social-link">Li</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-info">
+                            <h3 class="chef-name">Ahmed Khan</h3>
+                            <p class="chef-role">Pastry & Dessert Chef</p>
+                        </div>
+                    </article>
+
+                    <article class="chef-card fade-up" style="--delay: 0.3s" tabindex="0">
+                        <div class="chef-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=500&q=80"
+                                alt="Chef Bilal Raza, Head Grill and BBQ Chef" loading="lazy" />
+                            <div class="chef-overlay">
+                                <p class="chef-overlay-bio">Trained in Peshawar's legendary roadside grills. The pulse
+                                    behind every skewer we serve.</p>
+                                <div class="chef-socials">
+                                    <a href="#" aria-label="Chef Bilal on Instagram" class="chef-social-link">Ig</a>
+                                    <a href="#" aria-label="Chef Bilal on LinkedIn" class="chef-social-link">Li</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-info">
+                            <h3 class="chef-name">Bilal Raza</h3>
+                            <p class="chef-role">Head BBQ & Grill Chef</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALLERY ===== -->
+        <section id="gallery" class="section section--dark" aria-labelledby="gallery-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <p class="section-eyebrow">Visual Diary</p>
+                    <h2 id="gallery-heading" class="section-title">Culinary Art,<br /><em>Framed</em></h2>
+                </header>
+
+                <div class="gallery-grid fade-up" role="list" aria-label="Restaurant gallery">
+                    <button class="gallery-item gallery-item--tall"
+                        data-src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1200&q=90"
+                        data-caption="Chicken Biryani — Saffron &amp; Ceremony" role="listitem"
+                        aria-label="View Chicken Biryani image">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=80"
+                            alt="Chicken Biryani" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item"
+                        data-src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&q=90"
+                        data-caption="Mutton Karahi — Wok &amp; Fire" role="listitem"
+                        aria-label="View Mutton Karahi image">
+                        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80"
+                            alt="Mutton Karahi" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item"
+                        data-src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=90"
+                        data-caption="The Dastaan Dining Room" role="listitem" aria-label="View dining room image">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&q=80"
+                            alt="Dastaan dining interior" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item gallery-item--wide"
+                        data-src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=1200&q=90"
+                        data-caption="BBQ Platter — The Full Theatre" role="listitem"
+                        aria-label="View BBQ Platter image">
+                        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80"
+                            alt="BBQ Platter" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item"
+                        data-src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1200&q=90"
+                        data-caption="Gulab Jamun — A Sweet Farewell" role="listitem"
+                        aria-label="View Gulab Jamun image">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80"
+                            alt="Gulab Jamun dessert" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item"
+                        data-src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=1200&q=90"
+                        data-caption="Spice Anatomy — The Dastaan Pantry" role="listitem"
+                        aria-label="View spice collection image">
+                        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80"
+                            alt="Collection of Pakistani spices" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item gallery-item--tall"
+                        data-src="https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=1200&q=90"
+                        data-caption="Rose Falooda — Colour &amp; Chill" role="listitem"
+                        aria-label="View Rose Falooda image">
+                        <img src="https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=600&q=80"
+                            alt="Rose Falooda drink" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                    <button class="gallery-item"
+                        data-src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1200&q=90"
+                        data-caption="Roghni Naan — Baked on Tandoor Walls" role="listitem"
+                        aria-label="View Naan image">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80"
+                            alt="Naan bread from tandoor" loading="lazy" />
+                        <div class="gallery-item-overlay"><span>+</span></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX MODAL -->
+        <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+            <div class="lightbox-backdrop"></div>
+            <button class="lightbox-close" id="lightbox-close" aria-label="Close image viewer">&#x2715;</button>
+            <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image">&#x2039;</button>
+            <button class="lightbox-next" id="lightbox-next" aria-label="Next image">&#x203A;</button>
+            <div class="lightbox-inner">
+                <img src="" alt="" id="lightbox-img" class="lightbox-img" />
+                <p class="lightbox-caption" id="lightbox-caption"></p>
+            </div>
+        </div>
+
+        <!-- ===== RESERVATION FORM ===== -->
+        <section id="reservation" class="section" aria-labelledby="reservation-heading">
+            <div class="container reservation-wrap">
+                <div class="reservation-left fade-up">
+                    <p class="section-eyebrow">Secure Your Evening</p>
+                    <h2 id="reservation-heading" class="section-title">Reserve Your<br /><em>Table</em></h2>
+                    <p class="body-text body-text--muted">Every reservation at Dastaan is a promise — from us to you. We
+                        set your table as if it is the only one in the room. Walk-ins are welcome, but a reservation
+                        ensures we are fully ready for you.</p>
+                    <ul class="reservation-info" role="list">
+                        <li><span class="info-label">Dress Code</span><span class="info-val">Smart Casual</span></li>
+                        <li><span class="info-label">Hours</span><span class="info-val">12:00 PM – 11:30 PM</span></li>
+                        <li><span class="info-label">Contact</span><span class="info-val">+92 42 3571 0000</span></li>
+                    </ul>
+                </div>
+
+                <form class="reservation-form fade-up fade-up--delay" id="reservation-form" novalidate
+                    aria-label="Table reservation form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="res-name" name="name" class="form-input" placeholder=" "
+                                autocomplete="name" required aria-required="true" />
+                            <label for="res-name" class="form-label">Full Name</label>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="res-email" name="email" class="form-input" placeholder=" "
+                                autocomplete="email" required aria-required="true" />
+                            <label for="res-email" class="form-label">Email Address</label>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" id="res-phone" name="phone" class="form-input" placeholder=" "
+                                autocomplete="tel" required aria-required="true" />
+                            <label for="res-phone" class="form-label">Phone Number</label>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="res-guests" name="guests" class="form-input" placeholder=" "
+                                min="1" max="20" required aria-required="true" />
+                            <label for="res-guests" class="form-label">Number of Guests</label>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" id="res-date" name="date" class="form-input" placeholder=" " required
+                                aria-required="true" />
+                            <label for="res-date" class="form-label">Date</label>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" id="res-time" name="time" class="form-input" placeholder=" " required
+                                aria-required="true" />
+                            <label for="res-time" class="form-label">Preferred Time</label>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="res-notes" name="notes" class="form-input form-textarea" placeholder=" "
+                            rows="3"></textarea>
+                        <label for="res-notes" class="form-label">Special Requests (optional)</label>
+                    </div>
+                    <button type="submit" class="btn btn--gold btn--full">Confirm Reservation</button>
+                    <p class="form-success" id="form-success" aria-live="polite" hidden>✦ Your table has been reserved.
+                        We will confirm via email within 24 hours.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- ===== TESTIMONIALS ===== -->
+        <section id="reviews" class="section section--dark" aria-labelledby="reviews-heading">
+            <div class="container">
+                <header class="section-header fade-up">
+                    <p class="section-eyebrow">Guest Voices</p>
+                    <h2 id="reviews-heading" class="section-title">What Our Guests<br /><em>Remember</em></h2>
+                </header>
+
+                <div class="testimonial-slider fade-up" role="region" aria-label="Customer testimonials">
+                    <div class="testimonial-track" id="testimonial-track">
+                        <article class="testimonial-card" aria-label="Review by Aisha Malik">
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <blockquote class="testimonial-quote">"The Beef Nihari at Dastaan is unlike anything I have
+                                had anywhere in the world. It tasted like Sunday mornings at my grandmother's house —
+                                and that is the highest compliment I know how to give."</blockquote>
+                            <footer class="testimonial-author">
+                                <div class="author-avatar" aria-hidden="true">AM</div>
+                                <div>
+                                    <p class="author-name">Aisha Malik</p>
+                                    <p class="author-loc">Karachi, Pakistan</p>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="testimonial-card" aria-label="Review by James Whitfield">
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <blockquote class="testimonial-quote">"I have dined across South Asia and Dastaan stands
+                                alone. The Mutton Karahi had a depth of flavour that made me rethink everything I
+                                thought I knew about Pakistani cooking. A mandatory destination."</blockquote>
+                            <footer class="testimonial-author">
+                                <div class="author-avatar" aria-hidden="true">JW</div>
+                                <div>
+                                    <p class="author-name">James Whitfield</p>
+                                    <p class="author-loc">London, UK</p>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="testimonial-card" aria-label="Review by Sana Butt">
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <blockquote class="testimonial-quote">"The ambiance alone is worth the visit, but then the
+                                food arrives and the room disappears entirely. We come here for every anniversary.
+                                Dastaan is not a restaurant — it's a ritual."</blockquote>
+                            <footer class="testimonial-author">
+                                <div class="author-avatar" aria-hidden="true">SB</div>
+                                <div>
+                                    <p class="author-name">Sana Butt</p>
+                                    <p class="author-loc">Karachi, Pakistan</p>
+                                </div>
+                            </footer>
+                        </article>
+
+                        <article class="testimonial-card" aria-label="Review by Omar Farooq">
+                            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+                            <blockquote class="testimonial-quote">"The BBQ Platter was genuinely the most complete
+                                grilling experience I have had. Every piece — seekh, chapli, tikka — cooked to a
+                                different perfection. The chefs here are artists."</blockquote>
+                            <footer class="testimonial-author">
+                                <div class="author-avatar" aria-hidden="true">OF</div>
+                                <div>
+                                    <p class="author-name">Omar Farooq</p>
+                                    <p class="author-loc">Dubai, UAE</p>
+                                </div>
+                            </footer>
+                        </article>
+                    </div>
+
+                    <div class="testimonial-controls" role="group" aria-label="Slider controls">
+                        <button class="slider-btn" id="slider-prev" aria-label="Previous testimonial">&#x2039;</button>
+                        <div class="slider-dots" id="slider-dots" aria-label="Slide indicators"></div>
+                        <button class="slider-btn" id="slider-next" aria-label="Next testimonial">&#x203A;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT & LOCATION ===== -->
+        <section id="contact" class="section" aria-labelledby="contact-heading">
+            <div class="container contact-grid">
+                <div class="contact-info fade-up">
+                    <p class="section-eyebrow">Find Us</p>
+                    <h2 id="contact-heading" class="section-title">Visit<br /><em>Dastaan</em></h2>
+
+                    <address class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">✦</span>
+                            <div>
+                                <p class="contact-label">Address</p>
+                                <p class="contact-val">47 Gulberg III, Main Boulevard<br />Karachi, Sindh 54000,
+                                    Pakistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">✦</span>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <p class="contact-val"><a href="tel:+924235710000">+92 42 3571 0000</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">✦</span>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <p class="contact-val"><a href="mailto:hello@dastaan.pk">hello@dastaan.pk</a></p>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="hours-table">
+                        <p class="contact-label" style="margin-bottom: 1rem;">Operating Hours</p>
+                        <div class="hours-row"><span>Monday – Thursday</span><span>12:00 PM – 11:00 PM</span></div>
+                        <div class="hours-row"><span>Friday – Saturday</span><span>12:00 PM – 12:00 AM</span></div>
+                        <div class="hours-row"><span>Sunday</span><span>1:00 PM – 10:30 PM</span></div>
+                    </div>
+                </div>
+
+                <div class="contact-map-wrap fade-up fade-up--delay" aria-label="Map location of Dastaan restaurant">
+                    <div class="map-placeholder">
+                        <div class="map-pin" aria-hidden="true">
+                            <svg width="40" height="54" viewBox="0 0 40 54" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 0C9 0 0 9 0 20c0 15 20 34 20 34S40 35 40 20C40 9 31 0 20 0z"
+                                    fill="#D4AF37" />
+                                <circle cx="20" cy="20" r="7" fill="#0A0A0A" />
+                            </svg>
+                        </div>
+                        <p class="map-label">Gulberg III, Karachi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <p class="footer-logo-urdu">دستان</p>
+                <p class="footer-logo-en">DASTAAN</p>
+                <p class="footer-tagline">A Story Worth Savoring<br />Since 1998, Karachi.</p>
+                <div class="footer-socials" role="list" aria-label="Social media links">
+                    <a href="#" class="footer-social" aria-label="Dastaan on Instagram" role="listitem">Ig</a>
+                    <a href="#" class="footer-social" aria-label="Dastaan on Facebook" role="listitem">Fb</a>
+                    <a href="#" class="footer-social" aria-label="Dastaan on X (Twitter)" role="listitem">X</a>
+                </div>
+            </div>
+
+            <nav class="footer-col" aria-label="Quick links">
+                <p class="footer-col-heading">Navigate</p>
+                <ul role="list">
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#menu">Full Menu</a></li>
+                    <li><a href="#chefs">Our Chefs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-col">
+                <p class="footer-col-heading">Menu Highlights</p>
+                <ul role="list">
+                    <li><a href="#menu">Chicken Biryani</a></li>
+                    <li><a href="#menu">Mutton Karahi</a></li>
+                    <li><a href="#menu">Beef Nihari</a></li>
+                    <li><a href="#menu">BBQ Platter</a></li>
+                    <li><a href="#menu">Gulab Jamun</a></li>
+                    <li><a href="#menu">Dahi Lassi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <p class="footer-col-heading">Dine With Us</p>
+                <p class="footer-text">47 Gulberg III, Main Boulevard<br />Karachi, Sindh 54000</p>
+                <p class="footer-text" style="margin-top: 1rem;"><a href="tel:+924235710000">+92 42 3571 0000</a></p>
+                <p class="footer-text"><a href="mailto:hello@dastaan.pk">hello@dastaan.pk</a></p>
+                <a href="#reservation" class="btn btn--gold"
+                    style="margin-top: 1.5rem; display: inline-block; font-size: 0.75rem; padding: 0.6rem 1.4rem;">Book
+                    a Table</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="footer-year"></span> Dastaan. All rights reserved.</p>
+            <p>Crafted with reverence for Pakistan's culinary heritage.</p>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 15V3M3 9l6-6 6 6" stroke="#0A0A0A" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
